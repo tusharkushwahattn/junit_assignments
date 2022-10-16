@@ -67,7 +67,7 @@ public class OrderServiceTest {
 
     @Test
     public void test_placeOrderBooleanReturnType() {
-        Mockito.when(email.sendEmail(order,"sonali")).thenReturn(true);
-        assertTrue(email.sendEmail(order,"sonali"));
+        Mockito.when(email.sendEmail(order,"Tushar")).thenReturn(true);
+        assertTrue(email.sendEmail(order,"Tushar"));
     }
 }
